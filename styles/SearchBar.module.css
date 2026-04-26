@@ -1,0 +1,24 @@
+.searchWrap {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.searchWrap input {
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px 8px;
+  outline: none;
+  width: 50%;
+}
+
+.searchIcon {
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .searchWrap {
+    width: 93%;
+  }
+  .searchWrap input {
+    width: 100%;
+  }
+}
